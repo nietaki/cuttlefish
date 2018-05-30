@@ -118,7 +118,7 @@ generate_element(MappingRecord) ->
 
     case Level of
         basic -> ok;
-        Level -> ok;
+        Level -> ok
     end,
 
     case generate_element(Hidden, Level, Default, Commented) of
